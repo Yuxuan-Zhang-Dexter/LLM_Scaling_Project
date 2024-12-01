@@ -1,0 +1,16 @@
+torch
+transformers
+datasets
+peft
+trl
+wandb
+huggingface_hub
+accelerate
+evaluate
+jinja2
+jupyter
+ipykernel
+deepspeed
+datasets
+flash-attn --no-build-isolation
+ipykernel

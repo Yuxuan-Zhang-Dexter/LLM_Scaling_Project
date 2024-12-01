@@ -1,0 +1,37 @@
+{
+    "seed": 42,
+    "cuda_visible_devices": "0,1",
+    "master_addr": "localhost",
+    "master_port": "9994",
+    "data_path": "/workspace/ML_team/datasets_pack_full/tokenized_data",
+    "model_path": "./configs/model_configs/llama_190M_config.json",
+    "checkpoint_output_dir": "./model_checkpoints",
+    "deepspeed_config": "./configs/deepspeed_configs/test_ds_zero2_config.json",
+    "tokenizer_config": "./configs/llama_tokenizer_configs",
+    "logging_dir": "./logs",
+    "eval_strategy": "steps",
+    "save_strategy": "steps",
+    "save_steps": 50000,
+    "logging_steps": 20,
+    "eval_steps": 10000,
+    "num_epoch": 1,
+    "batch_size": 16,
+    "gradient_checkpointing": false,
+    "learning_rate": 0.0003,
+    "gradient_accumulation": 1,
+    "weight_decay": 0.00003,
+    "save_total_limit": 2,
+    "warmup_steps": 500,
+    "use_zero3": true,
+    "lr_scheduler_type": "cosine",
+    "vis_app": "wandb",
+    "final_model": {
+        "path": "./final_model/target_model_config",
+        "tokenizer_path": "./final_model/target_tokenizer_config"
+    },
+    "wandb": {
+        "key": "ae05f44c8d5afe19940ef81e6f5cf69063392241",
+        "project_name": "llama-training",
+        "entity_name": "fjiang7-ucsd"
+    }
+}

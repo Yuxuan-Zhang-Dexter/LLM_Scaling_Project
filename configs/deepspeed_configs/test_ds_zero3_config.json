@@ -1,0 +1,19 @@
+{
+    "zero_optimization": {
+        "stage": 3,
+        "offload_param": {
+            "device": "none",
+            "pin_memory": false
+        },
+        "offload_optimizer": {
+            "device": "none",
+            "pin_memory": false
+        }
+    },
+    "gradient_accumulation_steps": 1,
+    "train_micro_batch_size_per_gpu": "auto",
+    "gradient_clipping": 1.0,
+    "fp16": {
+        "enabled": true
+    }
+}

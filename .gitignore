@@ -1,0 +1,42 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-related directories
+dsc180a_env/
+*.env
+*.venv
+
+# Ignore Hugging Face cache
+hf_cache/
+.cache/
+
+# Ignore model checkpoints
+model_checkpoints/
+
+# Ignore W&B logs and TensorBoard logs
+wandb/
+tensorboard_logs/
+
+# Ignore results and generated files
+results/
+final_model/
+
+# Ignore dataset directories
+datasets/
+dataset/
+logs/
+metric_logs/
+
+# Ignore other cache files or temporary directories
+*.log
+*.tmp
+*.swp
