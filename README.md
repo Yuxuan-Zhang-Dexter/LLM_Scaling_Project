@@ -1,7 +1,8 @@
 
 # Language Model Training Pipeline
 
-This repository contains a training pipeline for fine-tuning language models using the Transformers library. It includes scripts for dataset preparation, model training, and monitoring.
+This repository provides a training pipeline for fine-tuning language models using the Transformers library. It includes scripts for dataset preparation, model training, and monitoring. Special thanks to my teammates for their contributions to the Capstone Project. For more details, please refer to the [original repository](https://github.com/nljumaoas/dsc180a/tree/main).
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
